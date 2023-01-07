@@ -1,10 +1,4 @@
-/**
- * @name Tokyo Night
- * @description Discord Port of Visual Studio Code Theme
- * @author Ashtrath
- * @version 2.0.2
- * @authorId 2354831939099688962
- */
+/* Original Link: https://github.com/Dyzean/Tokyo-Night */
 
 /* DONT TOUCH THIS!!! */
 @import url("https://dyzean.github.io/Tokyo-Night/main.css");
@@ -33,9 +27,6 @@
 
 /* Username Background, get colorful background behind username on chat, works best with Monospace addon. (Disabled by default) */
 /* @import url("https://dyzean.github.io/Tokyo-Night/addons/username-background.css"); */
-
-/* Mac Like Titlebar (windows only), get mac style titlebar on windows client (Enabled by default) */
-@import url("https://dyzean.github.io/Tokyo-Night/addons/mac-titlebar.css");
 
 /* Compact Mode, hide some UI part on specific windows size,
   <920px Channel sidebar and member list get hidden, <600px Chat window only. (Disabled by default) */
@@ -97,75 +88,7 @@
   --channeltextarea-background: var(--background-secondary);
   --channeltextarea-background-hover: var(--background-tertiary);
 
-	/* Square avatar addons */
-	--avatar-roundess: 5px;
-
-  /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
-}
-
-.theme-light { /* Light Mode */
-
-  /*  Header Color  */
-  --header-primary: var(--text-normal);
-  --header-secondary: var(--text-muted);
-
-  /* Text Color */
-  --text-normal: #2e3338;
-  --text-muted: #747f8d;
-  --interactive-normal: #4c505e;
-  --interactive-hover: #404350;
-  --interactive-active: #373a44;
-  --interactive-muted: #77797c;
-
-  /* Background Color */
-  --background-primary: #d5d6db;
-  --background-secondary: #cecfd4;
-  --background-secondary-alt: #b6b7bd;
-  --background-tertiary: #c5c6cc;
-  --background-tertiary-alt: #bbbbc2;
-  --background-accent: #9ca3bb;
-  --background-floating: #c2c2c9;
-  --background-mentioned: #c4c7da;
-  --background-modifier-hover: #2c2a2a25;
-  --background-modifier-active: #5a525229;
-  --background-modifier-selected: #555e693d;
-  --background-modifier-accent: #06060714;
-  --border-mentioned: #a9afcf;
-  --background-mentioned-hover: #cfd2e9;
-  --accent-color: #365aaa;
-
-  /* Folder Color */
-  --folder-color: #a7a6a6d0;
-  --folder-color-light: #afafafd0;
-
-  /* Input Box Color */
-  --input-box-bg: #c2c2c7;
-  --input-box-border: #b3b4b8;
-  --input-box-border-focus: #959699;
-
-  /* Scrollbars Color */
-  --scrollbar-thin-thumb: transparent;
-  --scrollbar-thin-track: transparent;
-  --scrollbar-auto-thumb: #a0a0a0af;
-  --scrollbar-auto-thumb-hover: #77777785;
-  --scrollbar-auto-track: transparent;
-  --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
-  --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
-
-  /* Chat Box Color */
-  --channeltextarea-background: var(--background-secondary);
-  --channeltextarea-background-hover: var(--background-tertiary);
-
   /* Square avatar addons */
-	--avatar-roundess: 5px;
-
-  /* Mac Titlebar addons */
-  --close-button-color: #e92a2ade;
-  --maximize-button-color: #f7bc1bde;
-  --minimize-button-color: #12db33de;
-  --button-position: row;
+  --avatar-roundess: 5px;
 
 }
