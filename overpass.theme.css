@@ -1,7 +1,0 @@
-/* Some code I found on Reddit (https://old.reddit.com/r/BetterDiscord/comments/zabkqg/change_discord_font_i_cant_read_the_new_font/iytnwjl/), it seems to be working well. */
-/* Overpass: https://overpassfont.org/ */
-
-::placeholder, body, button, input, select, textarea {
-font-family: "Overpass";
-text-rendering: optimizeLegibility;
-}
